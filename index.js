@@ -1,4 +1,4 @@
-const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%¨&*()_/><{}?1234567890[]";
+const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%¨&*()_/><{}?1234567890";
 
 document.addEventListener('DOMContentLoaded', event => {
   const elements = document.querySelectorAll("span");
