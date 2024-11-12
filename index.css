@@ -300,6 +300,9 @@ span {
         height: 40px; 
         width: 40px;
     }
+    .tools .title{
+        text-align:center;
+    }
 }
 
 
@@ -353,10 +356,10 @@ footer .text a:hover {
 
 .text {
     display: flex;
-    flex-wrap: wrap; /* Para garantir que o conteúdo se ajuste em telas pequenas */
+    flex-wrap: wrap; 
     align-items: center;
     justify-content: center;
-    gap: 30px; /* Espaçamento entre o texto e a imagem */
+    gap: 30px;
     font-size: 1.6rem;
 }
 
@@ -395,12 +398,10 @@ footer .text a:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
-/* Responsividade: Ajusta o layout para telas pequenas */
 @media (max-width: 768px) {
     .text {
-        flex-direction: column; /* Coloca o texto e a imagem em uma coluna em telas pequenas */
-        text-align: center; /* Centraliza o texto em telas pequenas */
-    }
+        flex-direction: column;
+        text-align: center; 
 
     .left {
         max-width: 100%; /* O texto pode ocupar toda a largura disponível */
