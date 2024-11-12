@@ -23,7 +23,7 @@ body {
     background-image: url(imagens/bg-gif.gif);
     background-repeat: no-repeat;
     background-color: #0b001b;
-    background-size: cover;
+    background-size: contain;
     
 }
 
