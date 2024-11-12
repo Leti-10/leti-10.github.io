@@ -23,7 +23,7 @@ body {
     background-image: url(imagens/bg-gif.gif);
     background-repeat: no-repeat;
     background-color: #0b001b;
-    background-size: contain;
+    
     
 }
 
@@ -94,9 +94,8 @@ header {
     font-size: 5rem;
     font-weight: 800;
     text-align: center;
-    margin-top: 50px;
 }
-section.home {
+.home {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,6 +103,7 @@ section.home {
     background-image: url(imagens/bg-gif-2.gif);
     padding: 21rem 0;
     margin: 0;
+    background-size: contain;
 }
 
 .home .home-content h1 {
