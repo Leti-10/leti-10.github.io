@@ -23,7 +23,7 @@ body {
     background-image: url(imagens/bg-gif.gif);
     background-repeat: no-repeat;
     background-color: #0b001b;
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -45,35 +45,8 @@ body {
     background: rgb(146, 1, 83);
 }
 
-/* HEADER */
-header {
-    margin-top: 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 1rem 9%;
-    background-color: transparent;
-    filter: drop-shadow(10px);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-}
 
-.logo {
-    font-size: 3rem;
-    color: #b74b4b;
-    font-weight: 800;
-    cursor: pointer;
-    transition: 0.5s ease;
-}
-
-.logo:hover {
-    transform: scale(1.1);
-}
-
-/* HOME SECTION */
+/* home */
 .title{
     font-size: 5rem;
     font-weight: 800;
@@ -84,8 +57,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 8rem;
-    padding: 21rem 0;
-    margin-bottom: 8rem;
+    padding: 20rem 0;
 }
 
 .home .home-content h1 {
@@ -111,23 +83,6 @@ span {
     font-size: 1.6rem;
 }
 
-.home-img {
-    border-radius: 50%;
-}
-
-.home-img img {
-    position: relative;
-    width: 32vw;
-    border-radius: 50%;
-    box-shadow: 0 0 25px solid #b74b4b;
-    cursor: pointer;
-    transition: 0.2s linear;
-}
-
-.home-img img:hover {
-    font-size: 1.8rem;
-    font-weight: 500;
-}
 
 .social-icons a {
     display: inline-flex;
@@ -345,6 +300,9 @@ span {
         height: 40px; 
         width: 40px;
     }
+    .tools .title{
+        text-align:center;
+    }
 }
 
 
@@ -398,10 +356,10 @@ footer .text a:hover {
 
 .text {
     display: flex;
-    flex-wrap: wrap; /* Para garantir que o conteúdo se ajuste em telas pequenas */
+    flex-wrap: wrap; 
     align-items: center;
     justify-content: center;
-    gap: 30px; /* Espaçamento entre o texto e a imagem */
+    gap: 30px;
     font-size: 1.6rem;
 }
 
@@ -440,12 +398,10 @@ footer .text a:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
-/* Responsividade: Ajusta o layout para telas pequenas */
 @media (max-width: 768px) {
     .text {
-        flex-direction: column; /* Coloca o texto e a imagem em uma coluna em telas pequenas */
-        text-align: center; /* Centraliza o texto em telas pequenas */
-    }
+        flex-direction: column;
+        text-align: center; 
 
     .left {
         max-width: 100%; /* O texto pode ocupar toda a largura disponível */
