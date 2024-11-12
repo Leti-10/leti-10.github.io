@@ -85,7 +85,7 @@ header {
     align-items: center;
     gap: 8rem;
     padding: 21rem 0;
-    margin: 8rem;
+    margin-bottom: 8rem;
 }
 
 .home .home-content h1 {
