@@ -3,15 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="index.css">
-    <title>Portifólio</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-32x32.png">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    
+    <title>Portfolio</title>
 </head>
 <body>
+    
+    
+    <section class="home" style="margin: 0px;">
+        <div class="home-content">
+            <h1>Oi, sou a <span data-value="Leticia">Leticia</span></h1>
+            <h3 style="padding: 15px;">Uma estudante de <span data-value="ADS">ADS</span> em São Paulo</h3>
+            <div class="social-icons" style="padding: 15px;">
+                <a href="https://www.linkedin.com/in/leticia-lopes-037737325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" title="Leticia Lopes"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Leti-10" title="Leti-10"><i class="fa-brands fa-github"></i></a>
+                <a href="https://mail.google.com/mail/u/1/#inbox?compose=DmwnWrRttNftwMrtMqKChpZBZctRDjTWPsXRlXsrsTRVzPwqVwMrqZpXKNnBqbKVMXLHlwPRHgHQ" title="Leti.lopes@gmail.com"><i class="fab fa-google"></i></a>
+                <a href="https://www.instagram.com/leticia_e_lopes/profilecard/?igsh=ZDVhZ3JyY25jeXZs"><i class="fa-brands fa-instagram" title="@Leticia_e_lopes"></i></a>
+            </div>
+        </div>
+    </section>
 
-    <h1 data-value="HYPERPLEXED">HYPERPLEXED</h1>
+    <section class="sobre" id="sobre" data-aos="fade-up">
+        <div class="content">
+            <div class="title"><span data-value="Sobre Mim">Sobre Mim</span></div>
+            <div class="sobre-detalhes">
+                <div class="right">
+                    <img src="imagens/minha imagem.png" alt="Imagem sobre mim" class="imagem-sobre">
+                </div>
+                <div class="left" style="text-align: justify;">
+                    <div class="topic">Estou no 1º Ano de faculdade</div>
+                    <p>Oi, sou a Letícia, estudante de Análise e Desenvolvimento de Sistemas (ADS) na Fatec São José dos Campos. Tenho me apaixonado cada vez mais pelo universo da tecnologia, principalmente no desenvolvimento de soluções e automação de processos.</p>
+
+                    <p>Antes de começar minha trajetória na área de TI, trabalhei como secretária em uma clínica de biomedicina, onde acendeu meu entendimento por administração. Essa experiência me ajudou a perceber como a tecnologia pode otimizar processos e agregar valor às empresas. </p>
+
+                    <p>Atualmente, estou me aprofundando em linguagens como HTML, CSS e JavaScript, e sempre em busca de novos desafios. Se tiver um projeto interessante ou quiser trocar ideias, fique à vontade para entrar em contato!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tools" id="tools" data-aos="fade-up">
+        <div class="container">
+            <div class="title">
+                <span data-value="Tecnologias">Tecnologias</span>
+            </div>
+            </div>
+            <div class="rigth">
+                <img src="https://skillicons.dev/icons?i=js" >
+                <img src="https://skillicons.dev/icons?i=python">
+                <img src="https://skillicons.dev/icons?i=git">
+                <img src="https://skillicons.dev/icons?i=css">
+                <img src="https://skillicons.dev/icons?i=java">
+                <img src="https://skillicons.dev/icons?i=figma">
+                <img height="48" width="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg">
+            </div>
+            
+    </section>
     
     
-<script src="index.js"></script>   
+    
+
+    <section class="contato" id="contato" data-aos="fade-up">
+        <div class="content">
+            <div class="title">
+                <span>Projeto Atual</span>
+            </div>
+            <div class="text">
+                <div class="left">
+                    <div class="topic" style="margin: 0;">API Scrum Fatec</div>
+                    <p>Um dos projeitos em qual colaborei na fatec! Aturi como P.O e desenvolvedora de um site que propõem padronizar</p>
+                    <p>a metodologia scrum na empresa do cliente, assim melhorando o ambiente de trabalho, e facilitando a comunicação entre departamentos</p>
+
+                </div>
+                <div class="right">
+                    <img src="imagens/image.png" alt="Imagem do projeto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="text">
+            <p>© 2024 <a href="https://github.com/Leti-1">Leticia Lopes</a> | Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        // Inicializar AOS
+        AOS.init({
+            duration: 1000, // duração da animação (em milissegundos)
+            once: true,     // a animação só ocorre uma vez quando a seção entra na tela
+        });
+    </script>
 </body>
 </html>
+
