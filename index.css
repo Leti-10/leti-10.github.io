@@ -17,7 +17,7 @@ html {
 /* BODY */
 body {
     width: auto;
-    height: 15  0%;
+    height: 100vh;
     overflow-x: hidden;
     color: white;
     background-image: url(imagens/bg-gif.gif);
