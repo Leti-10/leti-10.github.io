@@ -73,7 +73,7 @@ header {
     transform: scale(1.1);
 }
 
-/* HOME SECTION */
+/* home */
 .title{
     font-size: 5rem;
     font-weight: 800;
@@ -84,8 +84,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 8rem;
-    padding: 21rem 0;
-    margin-bottom: 8rem;
+    padding: 20rem 0;
 }
 
 .home .home-content h1 {
