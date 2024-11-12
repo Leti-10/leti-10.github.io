@@ -3,7 +3,7 @@ const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%¨&*()_/><{}?1234567890[]";
 document.addEventListener('DOMContentLoaded', event => {
   const elements = document.querySelectorAll("span");
 
-  // Função para iniciar o efeito de digitação aleatória
+  // Função para iniciar o efeito da digitação aleatória
   const startEffect = (hElement) => {
     let iteration = 0;
     let interval = null;
