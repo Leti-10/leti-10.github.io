@@ -16,13 +16,14 @@ html {
 
 /* BODY */
 body {
-    width: 100%;
+    width: auto;
     height: 100vh;
     overflow-x: hidden;
     color: white;
     background-image: url(imagens/bg-gif.gif);
     background-repeat: no-repeat;
     background-color: #0b001b;
+    background-size: cover;
     
 }
 
@@ -99,7 +100,6 @@ section.home {
     justify-content: center;
     align-items: center;
     gap: 8rem;
-    background-image: url(imagens/bg-gif-2.gif);
     padding: 17rem 0;
     margin: 0;
 }
