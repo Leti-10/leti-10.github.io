@@ -21,9 +21,7 @@ body {
     overflow-x: hidden;
     color: white;
     background-image: url(imagens/bg-gif.gif);
-    background-repeat: no-repeat;
     background-color: #0b001b;
-    
     
 }
 
@@ -95,7 +93,7 @@ header {
     font-weight: 800;
     text-align: center;
 }
-.home {
+section.home {
     display: flex;
     justify-content: center;
     align-items: center;
