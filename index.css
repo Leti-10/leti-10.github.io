@@ -14,7 +14,7 @@ html {
     font-size: 62.5%; /* 1rem = 10px */
 }
 
-/* BODY */
+
 body {
     width: auto;
     height: 100vh;
@@ -127,7 +127,7 @@ span {
     box-shadow: 0 0 25px #b74b4b;
 }
 
-/* Ajustes Responsivos */
+
 @media (max-width: 1000px) {
     .home {
         gap: 4rem;
@@ -179,7 +179,6 @@ span {
     
 }
 
-/* Ajustes Responsivos */
 @media (max-width: 768px) {
     .sobre-detalhes {
         flex-direction: column;
@@ -329,9 +328,6 @@ footer .text a:hover {
 }
 
 /*projetos*/
-
-
-
 .contato .title{
     text-align: left;
     color: rgb(146, 1, 83);
@@ -345,7 +341,7 @@ footer .text a:hover {
 
 .contato {
     background-color: #12121200; 
-    color: #fff; /* Cor do texto branco */
+    color: #fff; 
     padding: 50px 20px;
     text-align: center;
 }
@@ -404,13 +400,12 @@ footer .text a:hover {
         text-align: center; 
 
     .left {
-        max-width: 100%; /* O texto pode ocupar toda a largura disponível */
-        margin-bottom: 20px; /* Espaçamento inferior em telas pequenas */
+        max-width: 100%;  
+        margin-bottom: 20px; 
     }
 
     .right img {
-        max-width: 90%; /* Limita o tamanho da imagem em telas menores */
-        margin-top: 20px; /* Espaçamento superior para separar do texto */
+        max-width: 90%; 
+        margin-top: 20px; 
     }
-}
-
+}}
